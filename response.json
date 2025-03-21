@@ -1,0 +1,15 @@
+{
+  "message": "I found 2 videos from the RC Lens vs Sevilla match:",
+  "media": [
+    {
+      "title": "RC Lens vs Sevilla - Part 1",
+      "poster": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/bbf98d48-ed1d-11ef-9bb6-56840efcde67.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250225%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250225T082602Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=db543bb11cfecee6cd62601f8c09bf9ee098dba6f79f97da35c0fcce245faa44",
+      "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-proxies/97aae07c-ea25-11ef-998f-66b75663c4dc/bc085b98-ed1d-11ef-9bb6-56840efcde67.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250225%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250225T082602Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=d16fa749c72a54becdc95887e07cfb6d788770b61bb0f95b94ede2e76dd5a872"
+    },
+    {
+      "title": "RC Lens vs Sevilla - Part 2",
+      "poster": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/b6446bf2-ed1d-11ef-a233-22691f2be1e3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250225%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250225T082602Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=f9da6e361c625f97bf4b5ba0b1cfa9941e263e9c3d256f157a9b3f103929ed4c",
+      "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-proxies/97aae07c-ea25-11ef-998f-66b75663c4dc/b64f1746-ed1d-11ef-a233-22691f2be1e3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250225%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250225T082602Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=fa4d193a771cb8271d6c6f4d0d98ec7658966f62ddc3b1879c5cdbaf2efad06a"
+    }
+  ]
+}

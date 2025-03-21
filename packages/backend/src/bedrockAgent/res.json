@@ -1,0 +1,554 @@
+{
+  "facets": {
+    "approval_status": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "archive_status": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "key": "NOT_ARCHIVED"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "format": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "key": "MPEG-4 AVC/H.264"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "is_online": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "key": 1,
+          "key_as_string": "true"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "media_type": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "key": "video"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "object_type": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "key": "assets"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "type": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "key": "ASSET"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    }
+  },
+  "first_url": "/API/search/v1/search/?page=1&per_page=50",
+  "last_url": "/API/search/v1/search/?page=1&per_page=50",
+  "next_url": null,
+  "objects": [
+    {
+      "_highlight": {
+        "title": [
+          "[[mark]]RC[[/mark]]_[[mark]]Lens[[/mark]]_x_[[mark]]Sevilla[[/mark]]_-_Part2.mp4"
+        ]
+      },
+      "_sort": [
+        "rc_lens_x_sevilla_-_part2.mp4",
+        "9632cd86-ed1d-11ef-bc46-3ee2a2a32b1b"
+      ],
+      "analyze_status": "N/A",
+      "archive_status": "NOT_ARCHIVED",
+      "category": null,
+      "created_by_user": "e3c53672-ea27-11ef-9ff7-2a24e136491d",
+      "created_by_user_info": null,
+      "date_created": "2025-02-17T10:54:40.152000+00:00",
+      "date_modified": "2025-02-17T10:55:33.250000+00:00",
+      "duration": "00:28:45:01",
+      "external_id": null,
+      "external_link": null,
+      "face_recognition_status": "N/A",
+      "files": [
+        {
+          "date_created": "2025-02-17T10:54:40.762000+00:00",
+          "date_modified": "2025-02-17T10:55:33.167000+00:00",
+          "directory_path": "",
+          "file_set_id": "9679fae4-ed1d-11ef-96a3-fed5eb0073fa",
+          "format_id": "9662d6de-ed1d-11ef-b6e9-fed5eb0073fa",
+          "id": "968f5f4c-ed1d-11ef-8077-b624fb27b431",
+          "name": "RC_Lens_x_Sevilla_-_Part2_968f5f4c-ed1d-11ef-8077-b624fb27b431.mp4",
+          "original_name": "RC_Lens_x_Sevilla_-_Part2.mp4",
+          "size": 1752552962,
+          "status": "CLOSED",
+          "storage_id": "7d8c39ac-ed1d-11ef-b1a2-563e531526c4",
+          "storage_method": "S3"
+        }
+      ],
+      "format": "MPEG-4 AVC/H.264",
+      "formats": [
+        {
+          "archive_status": null,
+          "date_created": "2025-02-17T10:54:40.466000+00:00",
+          "date_deleted": null,
+          "date_modified": "2025-02-17T10:54:40.466000+00:00",
+          "deleted_by_user": null,
+          "id": "9662d6de-ed1d-11ef-b6e9-fed5eb0073fa",
+          "is_online": true,
+          "metadata": [
+            {
+              "date_created": "2025-02-17T10:54:40+00:00",
+              "date_modified": "2025-02-17T10:54:40+00:00",
+              "format": "MPEG-4",
+              "frame_count": "51700",
+              "frame_rate": "29.970",
+              "internet_media_type": "video/mp4",
+              "overall_bit_rate": "8127513",
+              "scan_type": "Progressive",
+              "size": "1752552962"
+            }
+          ],
+          "name": "ORIGINAL",
+          "size": 1752552962,
+          "status": "ACTIVE",
+          "storage_methods": [
+            "S3"
+          ],
+          "user_id": "e3c53672-ea27-11ef-9ff7-2a24e136491d"
+        }
+      ],
+      "has_unconfirmed_persons": false,
+      "id": "9632cd86-ed1d-11ef-bc46-3ee2a2a32b1b",
+      "is_blocked": false,
+      "is_online": true,
+      "keyframes": [
+        {
+          "date_created": "2025-02-17T10:55:33.796000+00:00",
+          "date_modified": "2025-02-17T10:55:33.796000+00:00",
+          "filename": "b62c330c-ed1d-11ef-a233-22691f2be1e3.jpg",
+          "format": "JPEG",
+          "id": "b62c330c-ed1d-11ef-a233-22691f2be1e3",
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part2-keyframe.jpg",
+          "resolution": {
+            "height": 180,
+            "width": 320
+          },
+          "status": "CLOSED",
+          "storage_id": "97dd8d7e-ea25-11ef-bb3d-b624fb27b431",
+          "time_code": null,
+          "type": "KEYFRAME",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/b62c330c-ed1d-11ef-a233-22691f2be1e3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T154939Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=253d42c734d1348006f72800714e5d7c9772ba85068ffaa0a61ede6e5fd596e2"
+        },
+        {
+          "date_created": "2025-02-17T10:55:33.954000+00:00",
+          "date_modified": "2025-02-17T10:55:33.954000+00:00",
+          "filename": "b6446bf2-ed1d-11ef-a233-22691f2be1e3.jpg",
+          "format": "JPEG",
+          "id": "b6446bf2-ed1d-11ef-a233-22691f2be1e3",
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part2-max-keyframe.jpg",
+          "resolution": {
+            "height": 540,
+            "width": 960
+          },
+          "status": "CLOSED",
+          "storage_id": "97dd8d7e-ea25-11ef-bb3d-b624fb27b431",
+          "time_code": null,
+          "type": "KEYFRAME",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/b6446bf2-ed1d-11ef-a233-22691f2be1e3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T154939Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=68d287d5137be4965a60d7c5af8247db3728c716288bc8ef9a557bbfb783537d"
+        },
+        {
+          "date_created": "2025-02-17T10:55:33.748000+00:00",
+          "date_modified": "2025-02-17T10:55:33.748000+00:00",
+          "filename": "b624e2be-ed1d-11ef-a233-22691f2be1e3.jpg",
+          "format": "JPEG",
+          "id": "b624e2be-ed1d-11ef-a233-22691f2be1e3",
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part2-keyframe-map.jpg",
+          "resolution": {
+            "height": 180,
+            "width": 320
+          },
+          "status": "CLOSED",
+          "storage_id": "97dd8d7e-ea25-11ef-bb3d-b624fb27b431",
+          "time_code": null,
+          "type": "KEYFRAME_MAP",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/b624e2be-ed1d-11ef-a233-22691f2be1e3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T154939Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8a57f8872ecffb8106ce24df5f1c2279c8fcf9785de17122beb44ada9e1d120f"
+        }
+      ],
+      "media_type": "video",
+      "object_type": "assets",
+      "permissions": [
+        "change-acl",
+        "write",
+        "read",
+        "delete"
+      ],
+      "person_ids": [],
+      "position": 0,
+      "proxies": [
+        {
+          "bit_rate": 3594074,
+          "codec": "AVC",
+          "date_created": "2025-02-17T10:55:34.024000+00:00",
+          "date_modified": "2025-02-17T10:55:34.024000+00:00",
+          "filename": "b64f1746-ed1d-11ef-a233-22691f2be1e3.mp4",
+          "format": "MPEG-4",
+          "frame_rate": "29.97",
+          "id": "b64f1746-ed1d-11ef-a233-22691f2be1e3",
+          "is_drop_frame": false,
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part2-lowres.mp4",
+          "resolution": {
+            "height": 720,
+            "width": 1280
+          },
+          "start_time_code": null,
+          "status": "CLOSED",
+          "storage_id": "97d918de-ea25-11ef-bb3d-b624fb27b431",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-proxies/97aae07c-ea25-11ef-998f-66b75663c4dc/b64f1746-ed1d-11ef-a233-22691f2be1e3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T170108Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=ad2b0522967941e9230ac723a11f0b6bfec14ba0fcbacf9c370d9751be661778"
+        }
+      ],
+      "time_end_milliseconds": null,
+      "time_start_milliseconds": null,
+      "title": "RC_Lens_x_Sevilla_-_Part2.mp4",
+      "type": "ASSET",
+      "versions": [
+        {
+          "analyze_status": "N/A",
+          "archive_status": "NOT_ARCHIVED",
+          "created_by_user": "e3c53672-ea27-11ef-9ff7-2a24e136491d",
+          "date_created": "2025-02-17T10:54:40.156000+00:00",
+          "face_recognition_status": "N/A",
+          "has_unconfirmed_persons": false,
+          "id": "96337a1a-ed1d-11ef-bc46-3ee2a2a32b1b",
+          "is_online": true,
+          "person_ids": [],
+          "status": "ACTIVE",
+          "transcribe_status": "N/A"
+        }
+      ],
+      "versions_number": 1,
+      "warning": null
+    },
+    {
+      "_highlight": {
+        "title": [
+          "[[mark]]RC[[/mark]]_[[mark]]Lens[[/mark]]_x_[[mark]]Sevilla[[/mark]]_-_Part1.mp4"
+        ]
+      },
+      "_sort": [
+        "rc_lens_x_sevilla_-_part1.mp4",
+        "96332092-ed1d-11ef-9c25-5a1753cae399"
+      ],
+      "analyze_status": "N/A",
+      "archive_status": "NOT_ARCHIVED",
+      "category": null,
+      "created_by_user": "e3c53672-ea27-11ef-9ff7-2a24e136491d",
+      "created_by_user_info": null,
+      "date_created": "2025-02-17T10:54:40.154000+00:00",
+      "date_modified": "2025-02-17T10:55:42.656000+00:00",
+      "duration": "00:29:20:03",
+      "external_id": null,
+      "external_link": null,
+      "face_recognition_status": "N/A",
+      "files": [
+        {
+          "date_created": "2025-02-17T10:54:40.837000+00:00",
+          "date_modified": "2025-02-17T10:55:42.580000+00:00",
+          "directory_path": "",
+          "file_set_id": "96859f0c-ed1d-11ef-9921-563e531526c4",
+          "format_id": "9668e38a-ed1d-11ef-8077-b624fb27b431",
+          "id": "969af726-ed1d-11ef-b6e9-fed5eb0073fa",
+          "name": "RC_Lens_x_Sevilla_-_Part1_969af726-ed1d-11ef-b6e9-fed5eb0073fa.mp4",
+          "original_name": "RC_Lens_x_Sevilla_-_Part1.mp4",
+          "size": 1788408200,
+          "status": "CLOSED",
+          "storage_id": "7d8c39ac-ed1d-11ef-b1a2-563e531526c4",
+          "storage_method": "S3"
+        }
+      ],
+      "format": "MPEG-4 AVC/H.264",
+      "formats": [
+        {
+          "archive_status": null,
+          "date_created": "2025-02-17T10:54:40.505000+00:00",
+          "date_deleted": null,
+          "date_modified": "2025-02-17T10:54:40.505000+00:00",
+          "deleted_by_user": null,
+          "id": "9668e38a-ed1d-11ef-8077-b624fb27b431",
+          "is_online": true,
+          "metadata": [
+            {
+              "date_created": "2025-02-17T10:54:40+00:00",
+              "date_modified": "2025-02-17T10:54:40+00:00",
+              "format": "MPEG-4",
+              "frame_count": "52751",
+              "frame_rate": "29.970",
+              "internet_media_type": "video/mp4",
+              "overall_bit_rate": "8128551",
+              "scan_type": "Progressive",
+              "size": "1788408200"
+            }
+          ],
+          "name": "ORIGINAL",
+          "size": 1788408200,
+          "status": "ACTIVE",
+          "storage_methods": [
+            "S3"
+          ],
+          "user_id": "e3c53672-ea27-11ef-9ff7-2a24e136491d"
+        }
+      ],
+      "has_unconfirmed_persons": false,
+      "id": "96332092-ed1d-11ef-9c25-5a1753cae399",
+      "is_blocked": false,
+      "is_online": true,
+      "keyframes": [
+        {
+          "date_created": "2025-02-17T10:55:43.501000+00:00",
+          "date_modified": "2025-02-17T10:55:43.501000+00:00",
+          "filename": "bbf5163c-ed1d-11ef-9bb6-56840efcde67.jpg",
+          "format": "JPEG",
+          "id": "bbf5163c-ed1d-11ef-9bb6-56840efcde67",
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part1-keyframe.jpg",
+          "resolution": {
+            "height": 180,
+            "width": 320
+          },
+          "status": "CLOSED",
+          "storage_id": "97dd8d7e-ea25-11ef-bb3d-b624fb27b431",
+          "time_code": null,
+          "type": "KEYFRAME",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/bbf5163c-ed1d-11ef-9bb6-56840efcde67.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T154939Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=fa9f9629233043e4d87b223de79c81c3726b63588f10c9ec6e852cbda8d7e617"
+        },
+        {
+          "date_created": "2025-02-17T10:55:43.530000+00:00",
+          "date_modified": "2025-02-17T10:55:43.530000+00:00",
+          "filename": "bbf98d48-ed1d-11ef-9bb6-56840efcde67.jpg",
+          "format": "JPEG",
+          "id": "bbf98d48-ed1d-11ef-9bb6-56840efcde67",
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part1-max-keyframe.jpg",
+          "resolution": {
+            "height": 540,
+            "width": 960
+          },
+          "status": "CLOSED",
+          "storage_id": "97dd8d7e-ea25-11ef-bb3d-b624fb27b431",
+          "time_code": null,
+          "type": "KEYFRAME",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/bbf98d48-ed1d-11ef-9bb6-56840efcde67.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T154939Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=2e29f6de40f35a5777242e5e923a47621d34b8fc231d03f7f4ee2f9cbb12f890"
+        },
+        {
+          "date_created": "2025-02-17T10:55:43.479000+00:00",
+          "date_modified": "2025-02-17T10:55:43.479000+00:00",
+          "filename": "bbf1ce32-ed1d-11ef-9bb6-56840efcde67.jpg",
+          "format": "JPEG",
+          "id": "bbf1ce32-ed1d-11ef-9bb6-56840efcde67",
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part1-keyframe-map.jpg",
+          "resolution": {
+            "height": 180,
+            "width": 320
+          },
+          "status": "CLOSED",
+          "storage_id": "97dd8d7e-ea25-11ef-bb3d-b624fb27b431",
+          "time_code": null,
+          "type": "KEYFRAME_MAP",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-keyframes/97aae07c-ea25-11ef-998f-66b75663c4dc/bbf1ce32-ed1d-11ef-9bb6-56840efcde67.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T154939Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=3ab5ff405f4da29e015f372437438ed311fb52421a6b650c62241ea6b9ace0d8"
+        }
+      ],
+      "media_type": "video",
+      "object_type": "assets",
+      "permissions": [
+        "change-acl",
+        "write",
+        "read",
+        "delete"
+      ],
+      "person_ids": [],
+      "position": 1,
+      "proxies": [
+        {
+          "bit_rate": 3602035,
+          "codec": "AVC",
+          "date_created": "2025-02-17T10:55:43.627000+00:00",
+          "date_modified": "2025-02-17T10:55:43.627000+00:00",
+          "filename": "bc085b98-ed1d-11ef-9bb6-56840efcde67.mp4",
+          "format": "MPEG-4",
+          "frame_rate": "29.97",
+          "id": "bc085b98-ed1d-11ef-9bb6-56840efcde67",
+          "is_drop_frame": false,
+          "is_public": false,
+          "name": "RC_Lens_x_Sevilla_-_Part1-lowres.mp4",
+          "resolution": {
+            "height": 720,
+            "width": 1280
+          },
+          "start_time_code": null,
+          "status": "CLOSED",
+          "storage_id": "97d918de-ea25-11ef-bb3d-b624fb27b431",
+          "url": "https://s3.eu-north-1.amazonaws.com/iconik-aws-eu-production-proxies/97aae07c-ea25-11ef-998f-66b75663c4dc/bc085b98-ed1d-11ef-9bb6-56840efcde67.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUD4IXSCF3NEX3552%2F20250218%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20250218T170108Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=ed4292003398d202e630db8612f393ba2603c4a64aabaad4fc1ad74c2d1c0f51"
+        }
+      ],
+      "time_end_milliseconds": null,
+      "time_start_milliseconds": null,
+      "title": "RC_Lens_x_Sevilla_-_Part1.mp4",
+      "type": "ASSET",
+      "versions": [
+        {
+          "analyze_status": "N/A",
+          "archive_status": "NOT_ARCHIVED",
+          "created_by_user": "e3c53672-ea27-11ef-9ff7-2a24e136491d",
+          "date_created": "2025-02-17T10:54:40.157000+00:00",
+          "face_recognition_status": "N/A",
+          "has_unconfirmed_persons": false,
+          "id": "9633acd8-ed1d-11ef-9c25-5a1753cae399",
+          "is_online": true,
+          "person_ids": [],
+          "status": "ACTIVE",
+          "transcribe_status": "N/A"
+        }
+      ],
+      "versions_number": 1,
+      "warning": null
+    }
+  ],
+  "page": 1,
+  "pages": 1,
+  "per_page": 50,
+  "prev_url": null,
+  "search_criteria_document": {
+    "criteria": {
+      "doc_types": [
+        "assets",
+        "collections"
+      ],
+      "facets": [
+        "filter.date_created",
+        "filter.created_by",
+        "filter.files.storage_id",
+        "filter.transcription_text",
+        "filter.metadata_values",
+        "approval_status",
+        "archive_status",
+        "type",
+        "object_type",
+        "is_online",
+        "format",
+        "media_type"
+      ],
+      "facets_filters": [],
+      "filter": {
+        "operator": "AND",
+        "terms": [
+          {
+            "name": "status",
+            "value_in": [
+              "ACTIVE"
+            ]
+          }
+        ]
+      },
+      "include_fields": [
+        "id",
+        "title",
+        "keyframes",
+        "object_type",
+        "type",
+        "proxies",
+        "files",
+        "format",
+        "formats",
+        "permissions",
+        "versions",
+        "category",
+        "storage_id",
+        "parent_id",
+        "in_collections",
+        "is_blocked",
+        "warning",
+        "external_id",
+        "external_link",
+        "versions_number",
+        "favoured_by",
+        "metadata",
+        "comments_count",
+        "approval",
+        "time_end_milliseconds",
+        "time_start_milliseconds",
+        "face_recognition_status",
+        "has_unconfirmed_persons",
+        "person_ids",
+        "archive_status",
+        "analyze_status",
+        "created_by_user",
+        "files.storage_id",
+        "files.size",
+        "date_created",
+        "date_modified",
+        "media_type",
+        "duration",
+        "id",
+        "ancestor_collections",
+        "access_control_user",
+        "access_control_group",
+        "access_control_user_write",
+        "access_control_group_write",
+        "access_control_user_delete",
+        "access_control_group_delete",
+        "access_control_user_change_acl",
+        "access_control_group_change_acl"
+      ],
+      "query": "RC Lens Sevilla",
+      "search_fields": [
+        "title",
+        "description",
+        "segment_text",
+        "file_names",
+        "metadata",
+        "metadata.Description",
+        "metadata._gcvi_tags"
+      ],
+      "sort": [
+        {
+          "name": "title",
+          "order": "desc"
+        },
+        {
+          "name": "id",
+          "order": "asc"
+        }
+      ]
+    },
+    "date_created": "2025-02-18T17:12:25.386238+00:00",
+    "id": "8624d43a-ee1b-11ef-b914-b24d7326141d"
+  },
+  "total": 2
+}

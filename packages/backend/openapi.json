@@ -1,0 +1,177 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Iconik and TwelveLabs connectors API",
+    "version": "1.0.0",
+    "description": "APIs to interact with Iconik to manage assets and TwelveLabs to do generation based on videos."
+  },
+  "paths": {
+    "/search/{query}": {
+      "get": {
+        "summary": "Search on the assets in Iconik",
+        "description": "Can run a simple query on Iconik to find assets",
+        "operationId": "search",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "path",
+            "description": "Query to run on Iconik to find assets",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/indexForHighlights": {
+      "post": {
+        "summary": "API to index file into twelveLabs index to be able to run some generations.",
+        "description": "Give a file URL to be imported in twelveLabs index.",
+        "operationId": "indexForHighlights",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "assetId": {
+                    "type": "string",
+                    "description": "assetId from Iconik to be able to link the indexed file and the Iconik asset."
+                  },
+                  "videoUrl": {
+                    "type": "string",
+                    "description": "Presigned URL to allow twelveLabs to download the file and index it."
+                  }
+                },
+                "required": [
+                  "videoUrl",
+                  "assetId"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {}
+      }
+    },
+    "/indexForHighlights/{taskId}": {
+      "get": {
+        "summary": "Check the current status of an indexing job.",
+        "description": "Provide taskId to get the current status of a job.",
+        "operationId": "checkTaskStatus",
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "path",
+            "description": "id of the task created through the indexForHighlights endpoint.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/highlights/{videoId}": {
+      "get": {
+        "summary": "Generate highlights for a video",
+        "description": "Generate highlights on TwelveLabs for a video",
+        "operationId": "generateHighlights",
+        "parameters": [
+          {
+            "name": "videoId",
+            "in": "path",
+            "description": "id of video previously ingested in TwelveLabs.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "prompt",
+            "in": "path",
+            "description": "Prompt to give to TwelveLabs Pegasus model to generate highlights. Prompt works best when they are requesting for highlights longer than 10 seconds, and when given details about the context of the match. (first half, or second or match as a whole etc). Give it instructions on what you are looking for and be precise, give an example of each highlight you are searching for. Provide it instructions so it captures the right moment, it tends to show the reactions after the highlight instead of the highlight itself.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/shareFile": {
+      "post": {
+        "summary": "Create a file in S3 and generate a signed URL for sharing",
+        "description": "Store text content in a file in S3 and return a signed URL for accessing it",
+        "operationId": "shareFile",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "description": "The text content to store in the file"
+                  },
+                  "fileName": {
+                    "type": "string",
+                    "description": "The name of the file to create (must be unique)."
+                  }
+                },
+                "required": [
+                  "text",
+                  "fileName"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {}
+      }
+    },
+    "/generateClip": {
+      "post": {
+        "summary": "Create a Clip based on a signedURL and returns a signedUrl of the clip.",
+        "description": "Create a clip based on a signedURL and returns a signedUrl of the clip.",
+        "operationId": "clip",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "signedUrl": {
+                    "type": "string",
+                    "description": "The signedUrl of the video to be clipped."
+                  },
+                  "startTime": {
+                    "type": "string",
+                    "description": "The start time of the clip in the video. (in seconds)"
+                  },
+                  "endTime": {
+                    "type": "string",
+                    "description": "The end time of the clip in the video. (in seconds)"
+                  }
+                },
+                "required": [
+                  "signedUrl",
+                  "startTime",
+                  "endTime"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {}
+      }
+    }
+  }
+}

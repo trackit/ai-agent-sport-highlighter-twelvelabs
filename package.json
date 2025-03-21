@@ -1,0 +1,24 @@
+{
+  "name": "genai-twelvelabs-iconik",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev -w @genai-twelvelabs-iconik/frontend",
+    "dev:frontend:full": "npm run dev:full -w @genai-twelvelabs-iconik/frontend",
+    "dev:frontend:half": "npm run dev:half -w @genai-twelvelabs-iconik/frontend",
+    "dev:backend": "npm run dev -w @genai-twelvelabs-iconik/backend",
+    "build": "npm run build -ws",
+    "lint": "npm run lint -ws",
+    "format": "npm run format -ws",
+    "clean": "npm run clean -ws"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
