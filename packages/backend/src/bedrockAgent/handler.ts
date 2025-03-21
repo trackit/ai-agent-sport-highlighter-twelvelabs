@@ -195,5 +195,4 @@ export const handler = async (event: any) => {
     default:
       throw new Error('Function not implemented.')
   }
-  console.log('coucou')
 }
